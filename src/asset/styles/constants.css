@@ -1,0 +1,17 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Fredoka', sans-serif;
+   /* font-family: 'Qwitcher Grypen', cursive; */
+}
+
+:root{
+   --PRIMARYCOLOR: #fffffe;
+   --SECONDARY: #eaddcf;
+   --TERTIARY: #f2514271;
+
+   --BGCOLOR: #f9f4ef;
+   --PARAGRAPH: #716040;
+   --BUTTON: #8c7851;
+}

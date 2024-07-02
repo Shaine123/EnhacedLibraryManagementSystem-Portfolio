@@ -1,0 +1,85 @@
+.statistics-control-container {
+  margin-bottom: 25px;
+}
+.drop-down{
+  display: flex;
+}
+.drop-down .menu{
+  position: relative;
+}
+.drop-down .menu li{
+   list-style-type: none;
+   transition: all 1s cubic-bezier(0,0,.5,2);
+}
+.drop-down .menu li p{
+  background-color:  #ffc0ad;
+  margin-left: 10px;
+  height: 30px;
+  width: 120px;
+  padding-left: 10px;
+  padding-top: 4px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.drop-down .menu li .sub-menu{
+  background-color:  #ffc0ad;
+  width: 120px;
+  position: absolute;
+  right: 0;
+  margin-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  font-size: 2px;
+  border-radius: 5px;
+  height: 10px;
+  z-index: -2;
+  opacity: 0;
+  transition: all ease-in-out 1.2s
+}
+.drop-down ul.active li .sub-menu {
+  height: 465px;
+  z-index: 2;
+  opacity: 1;
+  font-size: 13px;
+  transition: all ease-in-out 0.5s
+}
+.drop-down .menu li .sub-menu li{
+  height: 35px;
+  padding-top: 7px;
+  border-radius: 5px;
+  padding-left: 4px;
+  cursor: pointer;
+  opacity: 0;
+  transition: all 1s cubic-bezier(0,0,.5,2);
+}
+.drop-down ul.active li .sub-menu li{
+  opacity: 1;
+}
+.drop-down .menu li .sub-menu li:hover{
+   background-color: white;
+}
+.filter-btn{
+  background-color:  #ffc0ad;
+  border: none;
+  padding: 0 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 5px;
+  transition: 0.5s all ease-in-out;
+}
+.filter-btn:hover{
+  background-color:  #ffc0ad75;
+}
+
+.drop-down .menu .carret-img{
+   height: 20px;
+   width: auto;
+   position: absolute;
+   top: 5px;
+   right: 10px;
+   transition: all ease-in-out 0.5s;
+}
+.drop-down ul.active .carret-img{
+   transform: rotate(180deg);
+}

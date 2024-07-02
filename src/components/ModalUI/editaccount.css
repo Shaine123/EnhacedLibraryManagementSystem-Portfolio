@@ -1,0 +1,77 @@
+.account-body{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: row;
+}
+.main-content{
+   display: flex;
+}
+.account-body .account-input-image{
+   width: 40%;
+}
+.form-image-container{
+   position: relative;
+   width: 440px;
+}
+.form-image{
+  border: 2px dashed #ffc0ad;
+  height: 180px;
+  width: 180px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+  margin-top: 60px;
+  overflow: hidden;
+  background-color: #ffc0ad;
+}
+.form-upImage{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.account-body .account-input-image .account-image{
+  font-size: 12px;
+  margin: 7px 0;
+  color: gray;
+  margin-top: 230px;
+  margin-left: 20px;
+}
+.account-body .account-input-container{
+   width: 100%;
+   padding: 0 20px;
+   padding-top: 40px;
+}
+.prof-container{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+.prof-container img{
+   height: auto;
+   width: 100%;
+}
+
+.account-body .account-input-container .account-input{
+  display: flex;
+  flex-direction: column;
+}
+.account-body .account-input-container .account-input label{
+  font-size: 12px;
+  margin: 7px 0;
+  color: gray;
+}
+.account-body .account-input-container .account-input input{
+  height: 40px;  
+  padding-left: 10px;
+  border: lightgray 1px solid;
+  border-radius: 8px;
+}
+.account-body .account-input-container .account-input input::placeholder{
+  color: black;
+}
+

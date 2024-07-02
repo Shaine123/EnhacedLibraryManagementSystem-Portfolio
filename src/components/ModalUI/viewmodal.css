@@ -1,0 +1,60 @@
+.viewmodal-bg{
+  background-color: rgba(0, 0, 0, 0.438);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  filter: blur(10);
+  display: flex;
+  padding-top: 2rem;
+  justify-content: center;
+}
+.viewmodal-container{
+  width: 720px;
+  max-height: 500px;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  z-index: 1;
+  position: relative;
+}
+.viewmodal-title {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #ffc0ad;
+  align-items: center;
+}
+.viewmodal-title  .close {
+  width: 14px;
+  height: 14px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.viewmodal-title  .close img{
+  width: 100%;
+  height: auto;
+}
+.viewmodal-content{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  gap: 5px;
+}
+.view-info{
+   flex: 1;
+   height: 100%;
+}
+.view-info h2{
+   text-align: center;
+   margin-top: 10px;
+   background-color: #ffc0ad;
+}
+.view-info .view-details{
+   padding-left: 10px;
+}
+.view-info .view-details p{
+  padding-left: 5px;
+}

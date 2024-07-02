@@ -1,0 +1,160 @@
+
+.content-table{
+   font-size: 14px; 
+   width: 100%;
+   border-collapse: collapse;
+   background-color: white;
+}
+.content-table thead tr{
+   background-color: #ffc0ad;
+   text-align: left;
+   font-weight: bold;
+   height: 60px;
+}
+.content-table thead tr th .th-title{
+   display: flex;
+   gap: 5px;
+}
+
+.content-table tbody tr{
+   transition: all ease-in-out 0.5s;
+   cursor: pointer;
+}
+.content-table tbody tr:hover{
+   background-color: #ffc0ad83;
+}
+.content-table tbody tr:active{
+   background-color: #ffc0ad83;
+}
+.content-table thead .sort-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 2px
+}
+.content-table thead .sort-btn img{
+   width: 15px;
+   height: auto;
+}
+.content-table tbody tr{
+   border-bottom: 1px solid rgba(237, 237, 237, 0.858);
+}
+.content-table td,
+.content-table th {
+   padding: 14px 15px;
+   position: relative;
+}
+
+.content-table tr:nth-child(Even){
+   background-color: rgba(232, 230, 230, 0.507);
+}
+.content-table tbody .checkedBox{
+   background-color: #ffc0ad83;
+}
+
+/* .content-table tbody tr td button{
+   width: 35px;
+   height: 35px;
+   padding: 5px;
+   margin: 0 3px;
+   border-radius: 5px;
+   border: none;
+   cursor: pointer;
+   background: transparent;
+} */
+
+/*action-btn css */
+
+.action-btn {
+   align-items: center;
+   appearance: none;
+   background-color: #ffc0ad;
+   border: 0;
+   border-radius: 6px;
+   box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+   box-sizing: border-box;
+   color: black;
+   cursor: pointer;
+   display: inline-flex;
+   font-family: "JetBrains Mono",monospace;
+   height: 38px;
+   justify-content: center;
+   line-height: 1;
+   list-style: none;
+   overflow: hidden;
+   padding-left: 16px;
+   padding-right: 16px;
+   position: relative;
+   text-align: left;
+   text-decoration: none;
+   transition: box-shadow .15s,transform .15s;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+   white-space: nowrap;
+   will-change: box-shadow,transform;
+   font-size: 18px;
+ }
+ 
+ .action-btn:focus {
+   box-shadow: #ffc0ad 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #ffc0ad 0 -3px 0 inset;
+ }
+ 
+ .action-btn:hover {
+   box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #55423d 0 -3px 0 inset;
+   transform: translateY(-2px);
+ }
+ 
+ .action-btn:active {
+   box-shadow: #3c4fe0 0 3px 7px inset;
+   transform: translateY(2px);
+ }
+ .action-btn img{
+    width: 27px;
+    height: auto;
+ }
+ .action-container{
+    width: 140px;
+    height: 120px;
+    background-color: white;
+    position: absolute;
+    right: 2vw;
+    top: 7vh;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    z-index: 3;
+    padding: 1rem;
+ }
+
+ .action-container ul li{
+    list-style-type: none;
+    display: flex;
+    gap: 5px;
+    padding-left: 10px;
+    margin: 8px 0;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all ease-in-out 0.5s;
+    align-items: center;
+ }
+ .action-container ul li:hover{
+    background-color: rgba(211, 211, 211, 0.479);
+ }
+ .action-container ul li img{
+    width: 15px;
+    height: 15px;
+ }
+ .action-container::after{
+   content: '';
+   position: absolute;
+   width: 0;
+   height: 0;
+   border-left: 7px solid  transparent ;
+   border-right: 7px solid transparent;
+   border-bottom: 20px solid  white ;
+   top: -10px;
+   right: 10px;
+   opacity: 1;
+ }

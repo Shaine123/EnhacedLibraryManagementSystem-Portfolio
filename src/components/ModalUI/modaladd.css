@@ -1,0 +1,137 @@
+.modal-background{
+  background-color: rgba(0, 0, 0, 0.438);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  filter: blur(10);
+  display: flex;
+  padding-top: 2rem;
+  justify-content: center;
+}
+.modal-background .modal-container {
+   width: 550px;
+   max-height: 500px;
+   background-color: white;
+   border-radius: 8px;
+   overflow: hidden;
+   z-index: 1;
+   position: relative;
+}
+.modal-background .modal-container .title{
+   display: flex;
+   justify-content: space-between;
+   padding: 15px;
+   background-color: #ffc0ad;
+   align-items: center;
+}
+
+.modal-container .title .close {
+   width: 14px;
+   height: 14px;
+   background-color: transparent;
+   border: none;
+   cursor: pointer;
+}
+.modal-container .title .close img{
+   width: 100%;
+   height: auto;
+}
+.modal-background .modal-container .body{
+   padding: 14px;
+}
+
+.modal-background .modal-container .body .modal-form{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 5px 5px ;
+}
+
+.modal-background .modal-container .body .modal-form .modal-field{
+   display: flex;
+   flex-direction: column;
+}
+.modal-background .modal-container .body .modal-form .modal-field label{
+   font-size: 12px;
+   margin: 7px 0;
+   color: gray;
+}
+.modal-background .modal-container .body .modal-form .modal-field input::placeholder{
+   color: black;
+}
+.modal-background .modal-container .body .modal-form .modal-field input,
+.modal-background .modal-container .body .modal-form .modal-field select
+{
+   height: 40px;  
+   padding-left: 10px;
+   border: lightgray 1px solid;
+   border-radius: 8px;
+}
+
+.modal-background .modal-container .body .modal-form .modal-field:nth-child(1){
+   grid-column: 1 / 3;
+}
+.modal-background .modal-container .body .modal-form .modal-field:nth-child(2){
+   grid-column: 1 / 3;
+}
+/* .modal-background .modal-container .body .modal-form button{
+   padding: 10px 10px;
+   width: 95px;
+   font-size: 12px;
+   cursor: pointer;
+   background-color: rgba(88, 175, 213, 0.687);
+   border: none;
+   grid-column: 2;
+   margin-top: 20px;
+   margin-left: 10rem;
+   border-radius: 5px;
+} */
+
+/* add btn*/
+.button-29 {
+   align-items: center;
+   appearance: none;
+   background-color: #ffc0ad;
+   border: 0;
+   border-radius: 6px;
+   box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+   box-sizing: border-box;
+   color: #271c19;
+   cursor: pointer;
+   display: inline-flex;
+   font-family: "JetBrains Mono",monospace;
+   height: 38px;
+   justify-content: center;
+   line-height: 1;
+   list-style: none;
+   overflow: hidden;
+   padding-left: 16px;
+   padding-right: 16px;
+   position: absolute;
+   bottom: 10px;
+   right: 15px;
+   text-align: left;
+   text-decoration: none;
+   transition: box-shadow .15s,transform .15s;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+   white-space: nowrap;
+   will-change: box-shadow,transform;
+   font-size: 18px;
+ }
+ 
+ .button-29:focus {
+   box-shadow: #ffc0ad 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+ }
+ 
+ .button-29:hover {
+   box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #55423d 0 -3px 0 inset;
+   transform: translateY(-2px);
+ }
+ 
+ .button-29:active {
+   box-shadow: #3c4fe0 0 3px 7px inset;
+   transform: translateY(2px);
+ }

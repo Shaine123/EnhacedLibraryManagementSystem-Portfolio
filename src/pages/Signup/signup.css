@@ -1,0 +1,101 @@
+.form-container{
+    position: relative;
+}
+
+.form-container .img-containerar{
+   position: absolute;    
+   height: 25px;
+   width: 25px;
+   cursor: pointer;
+   top: 15px;
+   left: 23px;
+}
+.form-container .img-containerar img{ 
+   height: 100%;
+   width: auto;
+}
+.defProfile-container{
+    position: relative;
+}
+.defProfile-container .custom-select{
+   height: 39px;
+   width: 100%;
+   border: 1px solid transparent;
+   border-radius: 30px 30px 30px 0;
+   background-color: white;
+   cursor: pointer;
+   position: relative;
+   display: flex;
+   align-items: center;
+   padding-left: 15px;
+   gap: 10px;
+}
+.defProfile-container .custom-select img{
+    width: 20px;
+    height: 20px;
+}
+.defProfile-container .custom-select p{
+    color: gray;
+    font-size: 14px;
+}
+
+.defProfile-container .custom-dropmenu{
+    height: 10px;
+    width: 100%;
+    position: relative;
+    background-color: white;
+    opacity: 0;
+    border-radius: 0 10px 10px 10px;
+    transition: all 1s cubic-bezier(0,0,.5,2);
+    padding: 1rem;
+}
+.defProfile-container .custom-dropmenu ul{
+   height: 10px;
+   overflow-y: scroll;
+}
+.defProfile-container .custom-dropmenu ul li{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding-left: 0.5rem;
+    cursor: pointer;
+    margin: 15px 0;
+    gap: 1rem;
+}
+.defProfile-container .custom-dropmenu ul li img{
+    height: 40px;
+    width: 40px;
+}
+.defProfile-container .custom-dropmenu ul li:hover{
+   background-color: rgba(211, 211, 211, 0.616);
+   border-radius: 5px;
+}
+.defProfile-container .openMenu{
+    height: 120px;
+    opacity: 1;
+}
+.form-container .signup-form{
+   display: flex;
+   flex-direction: column;
+   gap: 0.1rem;
+}
+.form-container .signup-form label{
+   color: var(--PRIMARYCOLOR);
+}
+.form-container .signup-form input{
+  height: 40px;
+  border: 1px solid transparent;
+  border-radius: 30px 30px 30px 0;
+  padding: 0 1rem;
+  margin: 0.4rem 0;
+}
+.error-msg{
+   font-size: 12px;
+   color: red;
+}
+.form-container .signup-form .input-error{
+   border: 1px solid red;
+}
+.form-container .signup-form .input-passed{
+   border: 1px solid rgb(21, 177, 21);
+}

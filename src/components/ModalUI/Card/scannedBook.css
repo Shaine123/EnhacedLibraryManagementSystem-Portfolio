@@ -1,0 +1,30 @@
+.scannedBookContainer{
+   width: 290px;
+   height: 190px;
+   border: none;
+   position: absolute;
+   top: 300px;
+   right: 30rem;
+   background-color: white;
+   border-radius: 10px;
+   box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.457);
+}
+
+.scannedBookContainer h3{ 
+  text-align: center;
+  margin-top: 3rem;
+}
+.scannedBookBtn{
+   cursor: pointer;
+   padding: 0.6em 1.5rem;
+   background-color: #ffc0ad;
+   border: none;
+   border-radius: 5px;
+   margin-left: 100px;
+   margin-top: 20px;
+   transition: all ease-in 0.5s;
+}
+.scannedBookBtn:hover{
+   background-color:  #ffc0adb0;
+}
+

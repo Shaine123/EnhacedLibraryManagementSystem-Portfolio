@@ -1,0 +1,58 @@
+.account-container{
+   width: 100%;
+   /* min-height: 300px; */
+   margin-top: 18px;
+   display: flex;
+   flex-wrap: wrap;
+   padding: 15px;
+   gap: 60px;
+}
+
+.account-container .account-card{
+   flex: 1;
+   min-width: 350px;
+   max-width: 450px;
+   height: 250px;
+   border-radius: 8px;
+   -webkit-box-shadow: 11px 8px 0px 0px rgba(255,192,173,0.88);
+   -moz-box-shadow: 11px 8px 0px 0px rgba(255,192,173,0.88);
+   box-shadow: 11px 8px 0px 0px rgba(255,192,173,0.88);
+   display: flex;
+   flex-direction: row;
+   border: 1px solid lightgray;
+   cursor: pointer;
+   transition: all 0.5s ease-in-out;
+}
+.account-container .account-card:hover{
+   background-color: #ffc0ad;
+   -webkit-box-shadow: 11px 8px 0px 0px rgba(186,186,186,1);
+    -moz-box-shadow: 11px 8px 0px 0px rgba(186,186,186,1);
+    box-shadow: 11px 8px 0px 0px rgba(186,186,186,1);
+}
+.account-container .account-card .accountImg-container{
+   width: 200px;
+   height: 200px;
+   border: 1px solid lightgray;
+   border-radius: 150px;
+   overflow: hidden;
+   background-color: #ffc0ad;
+   margin-top: 20px;
+   margin-left: 15px;
+}
+.account-container .account-card .accountImg-container img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.account-container .account-card .accountInfo-container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 45px;
+  padding-left: 35px;
+  width: 60%;
+}
+.account-container .account-card .accountInfo-container h2{
+   font-size: 20px;
+}

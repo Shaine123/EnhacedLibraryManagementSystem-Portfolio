@@ -1,0 +1,54 @@
+.purpose-container{
+  border-radius: 5px;
+  width: 400px;
+  position: fixed;
+  top: 140px;
+  right: 390px;
+  background-image: linear-gradient(to bottom right,#DEAF84,#97704F);
+  min-height: 50px;
+  padding: 5px;
+}
+.purpose-container:after{
+  content: '';
+  background-color: rgba(0, 0, 0, 0.379);
+  position: fixed;
+  width: 100vw;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.purpose-container .custom-select-container .custom-select{
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  cursor: pointer;
+  background-color: white;
+}
+.purpose-container .custom-select-container .custom-select img{
+  height: 17px;
+  width: 17px;
+}
+.purpose-container .custom-select-container .options{
+  overflow: hidden;
+  height: 0;
+  transition: 0.5s all ease-in-out;
+}
+.purpose-container .custom-select-container .options .option{
+  height: 40px;
+  background-color: white;
+  padding-top: 10px;
+  padding-left: 5px;
+  cursor: pointer;
+  transition: 0.2s all ease-in;
+}
+.purpose-container .custom-select-container .options .option:hover{
+ background-color: gray;
+ color: white;
+}
+
+.purpose-container .custom-select-container.activeSelect  .options{
+  height: 82px;
+}

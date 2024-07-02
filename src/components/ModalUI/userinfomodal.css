@@ -1,0 +1,36 @@
+.userinfo-container{
+   height: auto;
+   min-height: 420px;
+   width: 440px;
+   background-color: white;
+   position: fixed;
+   top: 140px;
+   right: 23rem;
+   box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.331);
+   border-radius: 5px;
+}
+.userinfo-container .title{
+  background-color: #F4E4C9;
+  height: 12px;
+  padding-left: 5px;
+  border-radius: 5px 5px 0 0;
+}
+.imageContainer{
+   height: 200px;
+   width: 250px;
+   margin-left: 86px;
+   margin-top: 10px;
+
+}
+.imageContainer img{
+   width: 100%;
+   height: auto;
+}
+.userinfo-container .details{
+   margin-left: 100px;
+   margin-top: 25px;
+}
+.userinfo-container .details h2{
+  margin: 10px 0;
+  font-size: 20px;
+}

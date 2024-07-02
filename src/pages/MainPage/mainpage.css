@@ -1,0 +1,317 @@
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: poppinsRegular
+}
+
+body{
+    /* background-image: url(../../asset//img//background/bg4.jpg); */
+    background-image: repeating-linear-gradient(135deg, rgba(240, 240, 240,0.02) 0px, rgba(240, 240, 240,0.02) 21px,rgba(224, 224, 224,0.02) 21px, rgba(224, 224, 224,0.02) 42px,rgba(208, 208, 208,0.02) 42px, rgba(208, 208, 208,0.02) 63px,rgba(192, 192, 192,0.02) 63px, rgba(192, 192, 192,0.02) 84px,rgba(175, 175, 175,0.02) 84px, rgba(175, 175, 175,0.02) 105px,rgba(159, 159, 159,0.02) 105px, rgba(159, 159, 159,0.02) 126px,rgba(143, 143, 143,0.02) 126px, rgba(143, 143, 143,0.02) 147px,rgba(127, 127, 127,0.02) 147px, rgba(127, 127, 127,0.02) 168px),repeating-linear-gradient(45deg, rgba(232, 232, 232,0.02) 0px, rgba(232, 232, 232,0.02) 21px,rgba(209, 209, 209,0.02) 21px, rgba(209, 209, 209,0.02) 42px,rgba(185, 185, 185,0.02) 42px, rgba(185, 185, 185,0.02) 63px,rgba(162, 162, 162,0.02) 63px, rgba(162, 162, 162,0.02) 84px,rgba(138, 138, 138,0.02) 84px, rgba(138, 138, 138,0.02) 105px,rgba(115, 115, 115,0.02) 105px, rgba(115, 115, 115,0.02) 126px,rgba(91, 91, 91,0.02) 126px, rgba(91, 91, 91,0.02) 147px,rgba(68, 68, 68,0.02) 147px, rgba(68, 68, 68,0.02) 168px),linear-gradient(90deg, #ffffff,#ffffff);
+    /* background-image: linear-gradient(340deg, rgba(76, 76, 76,0.02) 0%, rgba(76, 76, 76,0.02) 34%,transparent 34%, transparent 67%,rgba(142, 142, 142,0.02) 67%, rgba(142, 142, 142,0.02) 73%,rgba(151, 151, 151,0.02) 73%, rgba(151, 151, 151,0.02) 100%),linear-gradient(320deg, rgba(145, 145, 145,0.02) 0%, rgba(145, 145, 145,0.02) 10%,transparent 10%, transparent 72%,rgba(35, 35, 35,0.02) 72%, rgba(35, 35, 35,0.02) 76%,rgba(69, 69, 69,0.02) 76%, rgba(69, 69, 69,0.02) 100%),linear-gradient(268deg, rgba(128, 128, 128,0.02) 0%, rgba(128, 128, 128,0.02) 5%,transparent 5%, transparent 76%,rgba(78, 78, 78,0.02) 76%, rgba(78, 78, 78,0.02) 83%,rgba(224, 224, 224,0.02) 83%, rgba(224, 224, 224,0.02) 100%),linear-gradient(198deg, rgba(25, 25, 25,0.02) 0%, rgba(25, 25, 25,0.02) 36%,transparent 36%, transparent 85%,rgba(180, 180, 180,0.02) 85%, rgba(180, 180, 180,0.02) 99%,rgba(123, 123, 123,0.02) 99%, rgba(123, 123, 123,0.02) 100%),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255)); */
+    background-position: cover;
+    background-size: cover;
+
+}
+.container{ 
+   width: 98vw;
+   min-height: 100vh;
+   display: flex;
+}
+.container-output{
+   flex: 2;
+   padding: 0 30px;
+   padding-top: 20px;
+}
+.illustration{
+    position: fixed;
+    z-index: -1;
+    opacity: 0.1;
+    top: 100px;
+}
+.sidebar{
+    width: 250px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #55423d;
+    /* background-image: linear-gradient(to bottom right,#DEAF84,#97704F); */
+    /* background-image: linear-gradient(to bottom right,#2b5876,#4e4376); */
+    /* background-image: linear-gradient(to bottom right,#536976,#292E49); */
+    padding: 24px;
+    /* border-radius: 0 30px 30px 0; */
+    position: relative;
+    /* font-family: 'Times New Roman', Times, serif; */
+    transition: all 0.5s ease-in;
+}
+.sidebar .head{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.sidebar .head .min-box-container{
+    width: 52px;
+    height: 52px;
+    background-color: white;
+    border-radius: 30px;
+    position: absolute;
+    padding: 5px;
+    right:  -20px;
+}
+.sidebar .head .min-box{
+    width: 45px;
+    height: 45px;
+    background-color: #ffc0ad;
+    border-radius: 30px;
+    position: absolute;
+    padding: 5px;
+    right:  1px;
+    top: 3px;
+}
+.sidebar .head .min-btn{
+    width: 20px;
+    height: auto;
+    margin-left: 7px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+}
+.logo img{
+    width: 100%;
+    object-fit: cover;
+}
+.system-detail .title{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: poppinsMedium;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #fff3ec;
+}
+.nav .title{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nav .menu ul li img{
+    width: 22px;
+    height: 22px;
+}
+.nav .menu ul li{
+    list-style-type: none;
+    margin-bottom: 5px;
+    position: relative;
+}
+/* Change Later */
+.nav .menu ul li .option{
+   display: flex;
+   align-items: center;
+   gap: 12px;
+   text-decoration: none;
+   font-size: 15px;
+   font-family: poppinsRegular;
+   color: #fff3ec;
+   padding: 12px 8px;
+   border-radius: 8px;
+   transition: all ease-in-out 0.3s;
+   overflow: hidden;
+}
+.nav .menu ul li{
+    color: red
+}
+.nav .menu ul li .option:hover,
+.nav .menu ul li.active > .option
+{
+    background-color: rgb(234, 229, 229);
+    color: black
+}
+
+.nav .menu ul li.active .arrow{
+    transform: rotate(180deg);
+}
+
+.nav .menu ul li .option .arrow{
+     width: 14px;
+     height: 14px;
+     margin-left: 3rem;
+     transition: ease 0.4s all;
+}
+
+.nav .menu ul li .sub-menu{
+     display: block;
+     margin-left: 20px;
+     padding-left: 20px;
+     padding-top: 5px;
+     border-left: 1px solid #f6f6f6 ;
+     transition: all 1s cubic-bezier(0,0,.5,2);
+
+     overflow: hidden;
+}
+.nav .menu ul li .sm{
+    display: block;
+     margin-left: 20px;
+     padding-left: 20px;
+     padding-top: 5px;
+     border-left: 1px solid #f6f6f6 ;
+     transition: all 1s cubic-bezier(0,0,.5,2);  
+     overflow: hidden;
+}
+.nav .menu ul li .userSm{
+    display: block;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    border-left: 1px solid #f6f6f6 ;
+    transition: all 1s cubic-bezier(0,0,.5,2);
+    overflow: hidden;
+}
+.nav .menu ul li .xl{
+    display: block;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    border-left: 1px solid #f6f6f6 ;
+    transition: all 1s cubic-bezier(0,0,.5,2);
+    overflow: hidden;
+}
+
+.nav .menu ul li .xl li .option .text{
+    font-size: 12px;
+}
+.nav .menu ul li .sub-menu {
+    height: 0;
+    opacity: 0;
+}
+.nav .menu ul li .sm {
+    height: 0;
+    opacity: 0;
+}
+.nav .menu ul li .userSm{
+    height: 0;
+    opacity: 0;
+}
+.nav .menu ul li .xl{
+    height: 0;
+    opacity: 0;
+}
+
+.nav .menu ul li .sub-menu .option{
+    padding: 10px 8px;
+    font-size: 12px;
+}
+
+.nav .menu ul li.active .sub-menu{
+   height: 150px;
+   opacity: 1 ;
+}
+.nav .menu ul li.active .userSm{
+    height: 120px ;
+    opacity: 1 ;
+ }
+.nav .menu ul li.active .xl{
+    height: 200px ;
+    opacity: 1 ;
+}
+.nav .menu ul li.active .sm{
+    height: 140px ;
+    opacity: 1 ;
+ }
+.nav .menu ul li.active .small-sub{
+   height: 100px;
+   opacity: 1 ;
+}
+.nav .menu ul li .text{
+     transition: all 0.5s ease;
+}
+.nav .menu ul li .minimize{
+     opacity: 0;
+     transform: translateX(5rem);
+}
+
+
+.detail-box{
+    width: auto;
+    display: flex;
+    height: auto;
+    background-color:  #edc4c0 ;
+    position: absolute;
+    color: white;
+    position: absolute;
+    padding: 4px;
+    padding-left: 10px;
+    padding-top: 7px;
+    opacity: 0;
+    z-index: -1;
+    border-radius: 5px;
+    top: 10px;
+    left: 100px;
+    transition: all ease-in 0.4s;
+    font-size: 12px;
+    cursor: pointer;
+}
+.detail-box::after{
+     content: '';
+     position: absolute;
+     width: 0;
+     height: 0;
+     border-top: 7px solid transparent;
+     border-bottom: 7px solid transparent;
+     border-right: 20px solid  #edc4c0 ;
+     top: 6px;
+     left: -13px;
+     opacity: 1;
+}
+
+.nav .menu ul li.mini-active{
+    background-color: rgb(234, 229, 229);
+    border-radius: 5px;
+
+}
+.nav .menu ul li.mini-active.minimized  .detail-box
+{
+    opacity: 1;
+    z-index: 0;
+    width: 50px;
+    min-width: 70px;
+    left: 50px;
+}
+.nav .menu ul li.active.minimized  .detail-box
+{
+    opacity: 1;
+    z-index: 0;
+    left: 50px;
+}
+.nav .menu ul li.minimized:hover .detail-box
+{
+    opacity: 1;
+    z-index: 5;
+    left: 50px;
+}
+.nav .menu ul li  .sub-info{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.nav .menu ul li  .sub-info .sub-menu{
+    opacity: 1;
+    height: 170px;
+    margin-left: -5px;
+    border-left: none;
+}
+
+.nav .menu ul li  .sm-sub-info{
+     height: 120px;
+
+}
+
+/* s */

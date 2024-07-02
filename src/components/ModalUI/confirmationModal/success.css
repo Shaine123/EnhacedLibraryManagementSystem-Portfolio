@@ -1,0 +1,47 @@
+.successContainer{
+   background-color: white;
+   border-radius: 5px;
+   height: 70px;
+   width: 420px;
+   position: fixed;
+   top: 12px;
+   left: 37rem;
+   display: flex;
+   flex-direction: column;
+   overflow: hidden;
+   gap: 10px;
+   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.199);
+   transition: all 0.5s ease-in-out;
+}
+.successInfo{
+   display: flex;
+}
+.smileIcon{
+   height: 40px;
+   width: auto;
+   margin-top: 15px;
+   margin-left: 15px;
+}
+.successText{
+   padding-top: 14px;
+}
+.successText h2{
+   font-size: 18px;
+}
+.successText p{
+   color: gray;
+   font-size: 14px;
+}
+.footerColor{
+   height: 5px;
+   width: 420px;
+   background-color: #43FF10;
+}
+.divider{
+  width: 1px;
+  height: 35px;
+  background-color: rgba(167, 165, 165, 0.192);
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
