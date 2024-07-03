@@ -1,16 +1,31 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
-  "private": true,
-  "homepage": ".",
+  "name": "qr-login-invetorymanagesys",
+  "productName": "LibraryManagementApp",
+  "version": "1.0.0",
+  "description": "QR-Based Login and Inventory Magement System",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "main": "build/main.js",
+    "start": "electronmon .",
+    "dist": "electron-builder",
+    "package": "build"
+  },
+  "keywords": [
+    "electron",
+    "reactjs"
+  ],
+  "author": "Shaine",
+  "license": "MIT",
   "dependencies": {
     "@reduxjs/toolkit": "^1.7.2",
     "@wypratama/react-qr": "^1.0.0",
     "axios": "^1.6.3",
     "chart.js": "^4.4.1",
     "cors": "^2.8.5",
-    "cra-template-redux": "1.0.3",
+    "cra-template-redux": "^1.0.3",
     "downloadjs": "^1.4.7",
+    "electronmon": "^2.0.2",
     "express": "^4.18.2",
     "formik": "^2.4.5",
     "html2canvas": "^1.4.1",
@@ -22,30 +37,17 @@
     "react-qr-code": "^2.0.12",
     "react-redux": "^7.2.6",
     "react-router-dom": "^6.18.0",
-    "react-scripts": "5.0.0",
+    "react-scripts": "^5.0.0",
     "react-to-print": "^2.15.0",
     "xlsx": "^0.18.5",
     "yup": "^1.3.2"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "devDependencies": {
+    "electron": "^30.0.2",
+    "electron-builder": "^24.13.3"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "build": {
+    "appId": "com.librarymanagement.app",
+    "extends": null
   }
 }

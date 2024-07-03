@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "./static/css/main.1f606667.css",
+    "main.js": "./static/js/main.55f45d35.js",
+    "static/media/bg3.jpg": "./static/media/bg3.3d97d76c84b84f2e7acc.jpg",
+    "static/media/reading.jpg": "./static/media/reading.6fa72cc4d679cc7990a9.jpg",
+    "static/media/wormlogo.png": "./static/media/wormlogo.1e896684014d4db2532f.png",
+    "static/media/def-profile.jpg": "./static/media/def-profile.4b1822e13f639c746633.jpg",
+    "static/media/norsulogo.png": "./static/media/norsulogo.5cf368c6c258935c1678.png",
+    "static/media/Poppins-Regular.ttf": "./static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/Poppins-Medium.ttf": "./static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
+    "static/media/Poppins-ExtraBold.ttf": "./static/media/Poppins-ExtraBold.01849ee091e1762a5dd5.ttf",
+    "static/media/MADE TOMMY ExtraBold Outline_PERSONAL USE.otf": "./static/media/MADE TOMMY ExtraBold Outline_PERSONAL USE.94e2ffd8482504217e22.otf",
+    "static/media/MADE TOMMY Medium_PERSONAL USE.otf": "./static/media/MADE TOMMY Medium_PERSONAL USE.a1a50e698ce7cd493ce1.otf",
+    "static/media/CreatoDisplay-ExtraBold.otf": "./static/media/CreatoDisplay-ExtraBold.f9de8b92de0d58c6db97.otf",
+    "static/media/CreatoDisplay-Black.otf": "./static/media/CreatoDisplay-Black.7062362cf6f3b2264565.otf",
+    "static/media/CreatoDisplay-Regular.otf": "./static/media/CreatoDisplay-Regular.6d28723c4e0b525a515f.otf",
+    "static/media/CreatoDisplay-Medium.otf": "./static/media/CreatoDisplay-Medium.ee677d4fa2edd853d112.otf",
+    "static/media/illustration3.png": "./static/media/illustration3.a9d857fc0da96b403c5c.png",
+    "static/media/illu.png": "./static/media/illu.670c5cfa81938fddcb68.png",
+    "static/media/surveilance.png": "./static/media/surveilance.ca49f570be69920f18ed.png",
+    "static/media/logo-lib.png": "./static/media/logo-lib.2c3cc130182325793768.png",
+    "static/media/illustration4.png": "./static/media/illustration4.602dd25c52685e8eab12.png",
+    "static/media/illustration5.png": "./static/media/illustration5.fbdf7bac4f9984fb967c.png",
+    "static/media/qrsound.mp3": "./static/media/qrsound.078bf40875795efc62fd.mp3",
+    "static/media/login-manager.png": "./static/media/login-manager.52c5f1dec736ada47ab6.png",
+    "static/media/defProfile1.png": "./static/media/defProfile1.5bd676373ee58e3dd723.png",
+    "static/media/defProfile2.png": "./static/media/defProfile2.1eb0fe84378f90e8c0e4.png",
+    "static/media/defProfile4.png": "./static/media/defProfile4.c5a826717b217c51eb6b.png",
+    "static/media/defProfile3.png": "./static/media/defProfile3.330e4d2e03d4d04f05c6.png",
+    "index.html": "./index.html",
+    "main.1f606667.css.map": "./static/css/main.1f606667.css.map",
+    "main.55f45d35.js.map": "./static/js/main.55f45d35.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f606667.css",
+    "static/js/main.55f45d35.js"
+  ]
+}
